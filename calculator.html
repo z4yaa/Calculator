@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <div class="back" id="back">
+      <div
+        class="bg-white shadow-[inset_2px_2px_6px_2px_gray] w-[233px] h-[80px] rounded-[20px] flex justify-end items-end pr-[30px] pb-[10px] text-3xl m-auto mt-[25px] text-black"
+        id="delgets"
+      ></div>
+      <div
+        class="flex flex-wrap justify-center gap-[8px] pt-[20px] text-lg"
+        id="buttons"
+      >
+        <button onclick="ustgah()" class="btn" id="ustgah">AC</button>
+        <button onclick="bttn()" class="btn" id="btn">+/-</button>
+        <button onclick="bttn()" class="btn" id="btn">%</button>
+        <button onclick="uildelHiih('/')" class="btn1" id="huwaah">/</button>
+        <button onclick="buttons(1)" class="btn" id="btn">1</button>
+        <button onclick="buttons(2)" class="btn" id="btn">2</button>
+        <button onclick="buttons(3)" class="btn" id="btn">3</button>
+        <button onclick="uildelHiih('x')" class="btn1" id="urjih">x</button>
+        <button onclick="buttons(4)" class="btn" id="btn">4</button>
+        <button onclick="buttons(5)" class="btn" id="btn">5</button>
+        <button onclick="buttons(6)" class="btn" id="btn">6</button>
+        <button onclick="uildelHiih('-')" class="btn1" id="hasah">-</button>
+        <button onclick="buttons(7)" class="btn" id="btn">7</button>
+        <button onclick="buttons(8)" class="btn" id="btn">8</button>
+        <button onclick="buttons(9)" class="btn" id="btn">9</button>
+        <button onclick="uildelHiih('+')" class="btn1" id="nemeh">+</button>
+        <button onclick="buttons(0)" class="btn2" id="btn2">0</button>
+        <button onclick="tseg()" class="btn2" id="tseg">.</button>
+        <button onclick="hariu()" class="btn1" id="tentsuu">=</button>
+      </div>
+    </div>
+    <script src="calculator.js"></script>
+  </body>
+</html>
